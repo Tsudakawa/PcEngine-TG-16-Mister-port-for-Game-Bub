@@ -46,8 +46,8 @@ dshadoff: Further refinements and ongoing maintenance
 **GameBub project** for the target handheld platform.
 
 Special Thanks
-Florin-Byte
-Hiroyuki T
+Florin-Byte,
+Hiroyuki,
 Eli 
 & Game Bub community
 
