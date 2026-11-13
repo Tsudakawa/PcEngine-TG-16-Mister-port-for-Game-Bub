@@ -1,0 +1,15 @@
+{
+	"metadata": {
+		"id": "ToadyM.PcEngine",
+		"name": "PC Engine",
+		"author": "MiSTer / Toady M",
+		"version": "1.0.1-sgx",
+		"license": "GPL-2.0"
+	},
+	"bitstreams": [
+		{
+			"target": "gamebub_rev4",
+			"filename": "PcEngine.bit"
+		}
+	]
+}

@@ -1,0 +1,190 @@
+{
+    "settings":  [
+                     {
+                         "id":  9,
+                         "label":  "Load State",
+                         "address":  "0x14",
+                         "type":  "action",
+                         "value":  "0x12",
+                         "resume_after":  true,
+                         "result":  {
+                                        "address":  "0x1C",
+                                        "timeout_ms":  6000,
+                                        "messages":  [
+                                                         {
+                                                             "value":  0,
+                                                             "text":  "State {7} Unable to load"
+                                                         },
+                                                         {
+                                                             "value":  1,
+                                                             "text":  "State {7} loaded"
+                                                         },
+                                                         {
+                                                             "value":  2,
+                                                             "text":  "No state available {7}"
+                                                         },
+                                                         {
+                                                             "value":  3,
+                                                             "text":  "State {7} Busy... try again"
+                                                         },
+                                                         {
+                                                             "value":  4,
+                                                             "text":  "No save for this game"
+                                                         },
+                                                         {
+                                                             "value":  5,
+                                                             "text":  "No states in SuperGrafx mode"
+                                                         }
+                                                     ]
+                                    }
+                     },
+                     {
+                         "id":  8,
+                         "label":  "Save State",
+                         "address":  "0x14",
+                         "type":  "action",
+                         "value":  "0x11",
+                         "resume_after":  true,
+                         "result":  {
+                                        "address":  "0x1C",
+                                        "timeout_ms":  6000,
+                                        "messages":  [
+                                                         {
+                                                             "value":  0,
+                                                             "text":  "State {7} Unable to save"
+                                                         },
+                                                         {
+                                                             "value":  1,
+                                                             "text":  "State {7} saved"
+                                                         },
+                                                         {
+                                                             "value":  3,
+                                                             "text":  "State {7} Busy.. try again"
+                                                         },
+                                                         {
+                                                             "value":  4,
+                                                             "text":  "No save for this game"
+                                                         },
+                                                         {
+                                                             "value":  5,
+                                                             "text":  "No states in SuperGrafx mode"
+                                                         }
+                                                     ]
+                                    }
+                     },
+                     {
+                         "id":  7,
+                         "label":  "State Slot",
+                         "address":  "0x18",
+                         "type":  "list",
+                         "default":  "0x0",
+                         "items":  [
+                                       {
+                                           "label":  "Slot 1",
+                                           "value":  "0x0"
+                                       },
+                                       {
+                                           "label":  "Slot 2",
+                                           "value":  "0x1"
+                                       },
+                                       {
+                                           "label":  "Slot 3",
+                                           "value":  "0x2"
+                                       },
+                                       {
+                                           "label":  "Slot 4",
+                                           "value":  "0x3"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  3,
+                         "label":  "Button Layout",
+                         "address":  "0x0",
+                         "mask":  "0xFFFFFFC7",
+                         "type":  "list",
+                         "default":  "0x0",
+                         "items":  [
+                                       {
+                                           "label":  "Default",
+                                           "value":  "0x0"
+                                       },
+                                       {
+                                           "label":  "Type 1",
+                                           "value":  "0x8"
+                                       },
+                                       {
+                                           "label":  "Type 2",
+                                           "value":  "0x10"
+                                       },
+                                       {
+                                           "label":  "Type 3",
+                                           "value":  "0x18"
+                                       },
+                                       {
+                                           "label":  "Japan 1",
+                                           "value":  "0x20"
+                                       },
+                                       {
+                                           "label":  "Japan 2",
+                                           "value":  "0x28"
+                                       },
+                                       {
+                                           "label":  "Brain 1",
+                                           "value":  "0x30"
+                                       },
+                                       {
+                                           "label":  "Brain 2",
+                                           "value":  "0x38"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  4,
+                         "label":  "Screen",
+                         "address":  "0x0",
+                         "mask":  "0xFFFFFF3F",
+                         "type":  "list",
+                         "default":  "0x0",
+                         "items":  [
+                                       {
+                                           "label":  "Aspect (Default)",
+                                           "value":  "0x0"
+                                       },
+                                       {
+                                           "label":  "Fullscreen for 270x242",
+                                           "value":  "0x40"
+                                       },
+                                       {
+                                           "label":  "Fullscreen for 360x242",
+                                           "value":  "0x80"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  0,
+                         "label":  "No Sprite Limit",
+                         "address":  "0x0",
+                         "mask":  "0xFFFFFFFE",
+                         "type":  "checkbox",
+                         "value":  "0x1",
+                         "default":  "0x1"
+                     },
+                     {
+                         "id":  16,
+                         "label":  "SuperGrafx Mode",
+                         "address":  "0x0",
+                         "mask":  "0xFFFFFEFF",
+                         "type":  "checkbox",
+                         "value":  "0x100",
+                         "default":  "0x100"
+                     },
+                     {
+                         "id":  15,
+                         "label":  "Reset",
+                         "address":  "0x2000",
+                         "type":  "action",
+                         "value":  "0x1"
+                     }
+                 ]
+}
